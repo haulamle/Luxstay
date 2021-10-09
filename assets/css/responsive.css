@@ -1,0 +1,93 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .container,
+    .footer {
+        margin: 80px 10px 0px;
+    }
+
+    .suggest-img {
+        height: 248px;
+    }
+
+    .footer--heading {
+        font-size: 2.4rem;
+        line-height: 1.4;
+    }
+    .footer--logo {
+        width: 50%;
+    }
+
+
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .slider-item-img {
+        height: 108px;
+    }
+
+    .location-hight-item-img {
+        height: 186px;
+    }
+    .suggest-img {
+        height: 164px;
+    }
+    .endow-img {
+        height: 164px;
+    }
+
+    .welcome-home-title {
+        line-height: 1;
+    }
+
+    .welcome-home-text,
+    .welcome-home-login,
+    .welcome-home-login-link,
+    .location-hight-text,
+    .endow-text,
+    .suggest-text,
+    .suggest-text-title,
+    .discover-text,
+    .discover-text-title,
+    .direc-text  {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+
+    .suggest-title-p,
+    .discover-title-p  {
+        font-size: 1.8rem;
+    }
+
+    .location-title {
+        line-height: 1.2;
+        margin: 0 0 6px;
+    }
+
+    .location-Surrounded {
+        top: 52%;
+        left: 20px;
+    }
+
+    .footer-logo-img {
+        width: 220px;
+    }
+    
+    
+    
+}
